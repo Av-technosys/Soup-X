@@ -60,6 +60,11 @@ export default function Navbar() {
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex items-center gap-12 text-black font-semibold text-2xl ml-10">
           <li>
+            <a href="/about" className="cursor-pointer hover:text-green-600">
+              About Us
+            </a>
+          </li>
+          <li>
             <a href="#menu" className="cursor-pointer hover:text-green-600">
               Menu
             </a>
@@ -85,6 +90,11 @@ export default function Navbar() {
               Testimonial
             </a>
           </li>
+          <li>
+            <a href="/contact" className="cursor-pointer hover:text-green-600">
+              Contact Us
+            </a>
+          </li>
         </ul>
 
         {/* MOBILE HAMBURGER */}
@@ -103,6 +113,11 @@ export default function Navbar() {
       >
         <ul className="flex flex-col gap-6">
           <li>
+            <a href="/about" className="cursor-pointer hover:text-green-600">
+              About Us
+            </a>
+          </li>
+          <li>
             <a href="#menu" className="cursor-pointer hover:text-green-600">
               Menu
             </a>
@@ -115,7 +130,7 @@ export default function Navbar() {
           </li>
 
           <li>
-            <a href="#products" className="cursor-pointer hover:text-green-600">
+            <a href="#product" className="cursor-pointer hover:text-green-600">
               Products
             </a>
           </li>
@@ -126,6 +141,11 @@ export default function Navbar() {
               className="cursor-pointer hover:text-green-600"
             >
               Testimonial
+            </a>
+          </li>
+          <li>
+            <a href="/contact" className="cursor-pointer hover:text-green-600">
+              Contact Us
             </a>
           </li>
         </ul>

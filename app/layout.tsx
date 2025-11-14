@@ -2,6 +2,7 @@ import "./globals.css";
 import { Poppins, Plus_Jakarta_Sans } from "next/font/google";
 import Navbar from "@/src/components/Navbar";
 import { ReactNode } from "react";
+import Footer from "@/src/components/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className={`${poppins.variable} ${jakarta.variable}`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

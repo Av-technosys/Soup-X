@@ -105,8 +105,13 @@ export default function ContactPage() {
       {/* Info section */}
       <div className="text-center mt-16 ">
         <p>Or reach us directly at:</p>
-        <p className="text-lg font-medium mt-2">info@soupx.com</p>
-        <p className="text-lg font-medium">(123) 456-7890</p>
+        <a className="text-lg font-medium" href="mailto:contact@soupx.co.in">
+          contact@soupx.co.in
+        </a>
+        <p className="text-lg font-medium">
+          {" "}
+          <a href="tel:+919996668387">(+91) 9996668387</a>
+        </p>
       </div>
     </section>
   );

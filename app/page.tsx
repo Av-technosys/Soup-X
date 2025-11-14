@@ -1,4 +1,3 @@
-import About from "@/src/components/About";
 import BusinessVerticals from "@/src/components/BusinessVerticals";
 import Categories from "@/src/components/Categories";
 import Footer from "@/src/components/Footer";
@@ -10,12 +9,11 @@ export default function Home() {
   return (
     <div className=" ">
       <Hero />
-      <About />
       <Categories />
       <BusinessVerticals />
       <TetraPack />
       <TestimonialSection />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
