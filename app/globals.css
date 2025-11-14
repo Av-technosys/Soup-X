@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -18,9 +19,14 @@
     --foreground: #ededed;
   }
 }
-
+@font-face {
+  font-family: "Gerbil";
+  src: url("../public//fonts/gerbil.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: poppins, plus-jakarta-sans, gerbil, sans-serif;
 }
