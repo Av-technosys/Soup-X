@@ -1,11 +1,12 @@
 "use client";
 
+import { Search } from "lucide-react";
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <section
-      className=" mx-auto flex w-full h-full  "
+      className=" max-w-[1800px] mx-auto flex w-full h-full  "
       style={{ fontFamily: "Plus Jakarta Sans" }}
     >
       {/* LEFT SECTION */}
@@ -15,9 +16,10 @@ export default function Hero() {
         <h1 className="  text-5xl md:text-8xl font-bold leading-tight mt-3">
           Freshness <br /> in every bite
         </h1>
-        <p className="text-gray-600 font-normal text-2xl mt-4 max-w-md">
+        <p className="text-gray-600 font-normal md:text-left text-center text-2xl mt-4 max-w-md">
           Delicious soups made from fresh, locally sourced ingredients.
         </p>
+
         {/* Search Box */}
         <div className="mt-6 w-full max-w-lg">
           <div className="flex items-center border border-gray-300 rounded-md px-4 py-3 shadow-sm">
@@ -26,7 +28,9 @@ export default function Hero() {
               placeholder="Enter item or restaurant you are looking for"
               className="w-full outline-none text-gray-700"
             />
-            <Image src="/vector.png" width={22} height={22} alt="search" />
+
+            {/* Lucide Search Icon */}
+            <Search size={22} className="text-gray-600" />
           </div>
         </div>
       </div>
