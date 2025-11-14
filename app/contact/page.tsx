@@ -2,11 +2,11 @@
 
 export default function ContactPage() {
   return (
-    <section className="min-h-screen w-full bg-[#022D1B] text-white px-6 md:px-20 py-24">
+    <section className="min-h-screen w-full mt-4 px-6 md:px-20 py-24">
       {/* Heading */}
       <div className="text-center mb-14">
         <h1 className="text-4xl md:text-5xl font-semibold">Contact Us</h1>
-        <p className="text-gray-300 mt-4 text-lg max-w-2xl mx-auto">
+        <p className="s mt-4 text-lg max-w-2xl mx-auto">
           Have questions? Want to collaborate? We&apos;re here to help and would
           love to hear from you.
         </p>
@@ -103,7 +103,7 @@ export default function ContactPage() {
       </div>
 
       {/* Info section */}
-      <div className="text-center mt-16 text-gray-300">
+      <div className="text-center mt-16 ">
         <p>Or reach us directly at:</p>
         <p className="text-lg font-medium mt-2">info@soupx.com</p>
         <p className="text-lg font-medium">(123) 456-7890</p>
