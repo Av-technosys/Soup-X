@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section
-      className=" max-w-[1800px] mx-auto flex w-full h-full  "
+      className="  flex w-full "
       style={{ fontFamily: "Plus Jakarta Sans" }}
     >
       {/* LEFT SECTION */}
@@ -42,7 +42,7 @@ export default function Hero() {
           alt="Soup Bowl"
           width={800}
           height={450}
-          className="relative z-10 "
+          className="object-contain ml-auto "
         />
       </div>
     </section>

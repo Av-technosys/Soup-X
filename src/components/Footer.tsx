@@ -46,10 +46,18 @@ export default function Footer() {
               className="space-y-3 font-normal text-xl text-gray-300"
               style={{ fontFamily: "Poppins" }}
             >
-              <li>Home</li>
-              <li>Studio</li>
-              <li>Service</li>
-              <li>Blog</li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#solution">Solutions</a>
+              </li>
+              <li>
+                <a href="#testimonial">Testimonial</a>
+              </li>
             </ul>
           </div>
 
@@ -65,10 +73,12 @@ export default function Footer() {
               className="space-y-3 font-normal text-xl text-gray-300"
               style={{ fontFamily: "Poppins" }}
             >
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
-              <li>Explore</li>
-              <li>Accesibility</li>
+              <li>
+                <a href="/privacy">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="/terms">Terms & Conditions</a>
+              </li>
             </ul>
           </div>
 
@@ -84,10 +94,20 @@ export default function Footer() {
               className="space-y-3 font-normal text-xl text-gray-300"
               style={{ fontFamily: "Poppins" }}
             >
-              <li>Instagram</li>
-              <li>LinkedIn</li>
-              <li>Youtube</li>
-              <li>Twitter</li>
+              <li>
+                {" "}
+                <a href="https://www.instagram.com/soupxindia/">Instagram</a>
+              </li>
+              <li>
+                {" "}
+                <a href="https://in.linkedin.com/company/soupx-sip-of-health">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href="https://www.facebook.com/soupxindia/">Facebook</a>
+              </li>
             </ul>
           </div>
 
@@ -97,21 +117,27 @@ export default function Footer() {
               className="text-2xl font-normal mb-4"
               style={{ fontFamily: "Poppins" }}
             >
-              Terms & Policies
+              Contact Us
             </h3>
             <ul
               className="space-y-3 font-normal text-xl text-gray-300"
               style={{ fontFamily: "Poppins" }}
             >
               <li>
-                1498w Fluton ste, STE <br /> 2D Chicgo, IL 63867.
+                MercuryRise Hospitality Pvt. Ltd. Sector 73, Noida,UP-201307.
               </li>
-              <li>(123) 456789000</li>
-              <li>info@elementum.com</li>
+              <li>
+                <a href="tel:+919996668387">(+91) 9996668387</a>
+              </li>
+              <li>
+                <a href="mailto:contact@soupx.co.in">contact@soupx.co.in</a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </footer>
   );
+}
+{
 }
