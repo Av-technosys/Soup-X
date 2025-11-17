@@ -45,7 +45,7 @@ export default function Navbar() {
       className="absolute top-0 left-0 w-full z-50 bg-transparent "
       style={{ fontFamily: "Plus Jakarta Sans" }}
     >
-      <div className="max-w-[1800px] mx-auto px-6 py-4 flex items-center justify-between md:justify-start">
+      <div className="max-w-[1800px] mx-auto lg:px-6 px-2 py-4 flex items-center justify-between md:justify-start">
         {/* LEFT LOGO */}
         <a href="/">
           <Image

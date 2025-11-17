@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className="  text-5xl md:text-8xl font-bold leading-tight mt-3">
           Freshness <br /> in every bite
         </h1>
-        <p className="text-gray-600 font-normal md:text-left text-center text-2xl mt-4 max-w-md">
+        <p className="text-gray-600 font-normal md:text-left text-left text-2xl mt-4 max-w-md">
           Delicious soups made from fresh, locally sourced ingredients.
         </p>
 

@@ -30,7 +30,7 @@ export default function TestimonialSection() {
           alt=""
           width={60}
           height={80}
-          className="absolute  top-40 left-10 rounded-full object-cover"
+          className="absolute hidden md:block top-40 left-10 rounded-full object-cover"
         />
 
         <Image
@@ -38,7 +38,7 @@ export default function TestimonialSection() {
           alt=""
           width={80}
           height={90}
-          className="absolute  bottom-28 left-6 rounded-full object-cover"
+          className="absolute hidden md:block bottom-28 left-6 rounded-full object-cover"
         />
 
         <Image
@@ -46,7 +46,7 @@ export default function TestimonialSection() {
           alt=""
           width={100}
           height={90}
-          className="absolute  top-0 right-5 rounded-full object-cover"
+          className="absolute hidden md:block top-0 right-5 rounded-full object-cover"
         />
 
         <Image
@@ -69,7 +69,7 @@ export default function TestimonialSection() {
           alt=""
           width={140}
           height={170}
-          className="absolute  right-0 bottom-16 rounded-full object-cover"
+          className="absolute hidden md:block  right-0 bottom-16 rounded-full object-cover"
         />
 
         {/* CENTER HEADING */}

@@ -76,7 +76,7 @@ export default function BusinessVerticals() {
 
   return (
     <section id="solution" className="w-full ">
-      <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
+      <div className="max-w-[1400px] mx-auto lg:px-8">
         {/* MAIN HEADING */}
         <div className="text-center mt-16 mb-6">
           <motion.h2
@@ -131,14 +131,14 @@ export default function BusinessVerticals() {
                     </span>
 
                     <h3
-                      className="mt-4 text-4xl font-bold text-gray-900 leading-snug"
+                      className="mt-4 text-2xl lg:text-4xl font-bold text-gray-900 leading-snug"
                       style={{ fontFamily: "Poppins" }}
                     >
                       {item.title}
                     </h3>
 
                     <p
-                      className="text-gray-600 mt-3 text-2xl
+                      className="text-gray-600 mt-3 text-xl lg:text-2xl
                    font-normal"
                       style={{ fontFamily: "Plus Jakarta Sans" }}
                     >
@@ -148,7 +148,7 @@ export default function BusinessVerticals() {
                       {item.points.map((pt, i) => (
                         <li
                           key={i}
-                          className="flex items-center gap-2 text-gray-700 text-xl font-normal"
+                          className="flex items-center gap-2 text-gray-700 text-lg lg:text-xl font-normal"
                           style={{ fontFamily: "Plus Jakarta Sans" }}
                         >
                           <CheckCircle className="text-green-600" size={22} />

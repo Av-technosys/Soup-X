@@ -32,7 +32,7 @@ export default function Categories() {
       <div className="max-w-[1400px] mx-auto px-4 lg:px-8 relative">
         <div className="text-center">
           <h2
-            className=" text-4xl md:text-6xl font-extrabold "
+            className=" text-3xl md:text-6xl font-extrabold "
             style={{ fontFamily: "poppins" }}
           >
             {" "}
