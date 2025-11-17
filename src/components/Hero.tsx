@@ -22,16 +22,15 @@ export default function Hero() {
 
         {/* Search Box */}
         <div className="mt-6 w-full max-w-lg">
-          <div className="flex items-center border border-gray-300 rounded-md px-4 py-3 shadow-sm">
+          {/* <div className="flex items-center border border-gray-300 rounded-md px-4 py-3 shadow-sm">
             <input
               type="text"
               placeholder="Enter item or restaurant you are looking for"
               className="w-full outline-none text-gray-700"
             />
 
-            {/* Lucide Search Icon */}
             <Search size={22} className="text-gray-600" />
-          </div>
+          </div> */}
         </div>
       </div>
 
