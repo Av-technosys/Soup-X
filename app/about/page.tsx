@@ -21,10 +21,12 @@ export default function About() {
             About <span className="text-green-700">SoupX</span>
           </h1>
           <p className="text-gray-600 text-xl max-w-lg">
-            Bringing health, freshness, and convenience together — one bowl at a
-            time. SoupX is committed to serving nutritious, tasty, chef-crafted
-            soups and meals to homes, restaurants, hospitals, and enterprise
-            clients.
+            SoupX began with a personal experience inside a hospital.
+            When our founder Uttam Kumar spent several days in Apollo Hospital during his mother’s treatment, he discovered that hospitals, despite being places of healing, still serve fried, oily, unhealthy meals. <br />
+            Patients could not find clean food.<br />
+
+
+
           </p>
         </div>
 
@@ -49,9 +51,10 @@ export default function About() {
           Our Story
         </h2>
         <p className="text-gray-600 text-xl max-w-3xl mx-auto mt-4">
-          SoupX began with a simple mission — make healthy eating accessible and
-          enjoyable. What started as a small kitchen experiment has now scaled
-          into a trusted food brand serving thousands every day.
+          SoupX is India’s first wellness QSR designed for hospitals, workplaces, and public environments.
+          We create clean label meals that support energy, recovery, and nourishment.
+          Our menus are crafted with chefs, nutritionists, and food technologists to provide balanced, delicious meals that suit modern lifestyles.
+
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-14">
@@ -112,10 +115,11 @@ export default function About() {
 
           <ul className="space-y-3">
             {[
-              "Promote healthy eating habits",
-              "Create affordable nutritious food",
-              "Deliver quality with uncompromised consistency",
-              "Support hospitals, corporates, and communities",
+              "Health first",
+              "Consistency in every bowl",
+              "Clean food without preservatives",
+              "Fast, convenient service",
+              "Affordability and accessibility",
             ].map((item, i) => (
               <li
                 key={i}

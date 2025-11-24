@@ -4,6 +4,7 @@ import Image from "next/image";
 import { CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import ParallaxSection from "./ParallaxSection";
+import Link from "next/link";
 
 export default function BusinessVerticals() {
   const sections = [
@@ -19,6 +20,7 @@ export default function BusinessVerticals() {
       button: "Request B2B Partnership",
       img: "/business1.png",
       bg: "/parallax/bg1.jpg",
+      href: "/contact",
     },
     {
       tag: "Franchise Network",
@@ -30,8 +32,11 @@ export default function BusinessVerticals() {
         "Ongoing operational support",
       ],
       button: "Apply for Franchise",
+      button1: "Download Franchise Brochure",
       img: "/business2.png",
       bg: "/parallax/bg2.jpg",
+      href: "https://franchiseready.in/soupx",
+      href1: "/soupX.pdf",
     },
     {
       tag: "Direct to Consumer",
@@ -45,6 +50,7 @@ export default function BusinessVerticals() {
       button: "Start Pre-Order",
       img: "/business3.png",
       bg: "/parallax/bg3.jpg",
+      href: "/contact",
     },
     {
       tag: "Franchise Network",
@@ -56,8 +62,11 @@ export default function BusinessVerticals() {
         "Ongoing operational support",
       ],
       button: "Apply for Franchise",
+      button1: "Download Franchise Brochure",
       img: "/business4.png",
       bg: "/parallax/bg4.jpg",
+      href: "https://franchiseready.in/soupx",
+      href1: "/soupX.pdf",
     },
     {
       tag: "Direct to Consumer",
@@ -71,6 +80,7 @@ export default function BusinessVerticals() {
       button: "Start Pre-Order",
       img: "/business5.png",
       bg: "/parallax/bg5.jpg",
+      href: "/contact",
     },
   ];
 
@@ -109,11 +119,10 @@ export default function BusinessVerticals() {
             return (
               <ParallaxSection key={index} background={item.bg}>
                 <div
-                  className={`grid grid-cols-1 md:grid-cols-2 items-center gap-14 ${
-                    reverse
-                      ? "md:flex-row-reverse md:[&>*:first-child]:order-2"
-                      : ""
-                  }`}
+                  className={`grid grid-cols-1 md:grid-cols-2 items-center gap-14 ${reverse
+                    ? "md:flex-row-reverse md:[&>*:first-child]:order-2"
+                    : ""
+                    }`}
                 >
                   {/* TEXT AREA */}
                   <motion.div
@@ -157,14 +166,31 @@ export default function BusinessVerticals() {
                       ))}
                     </ul>
 
-                    <a href="/contact">
-                      <button
-                        className="mt-6 bg-green-700 text-white text-xl font-semibold px-6 py-3 rounded-lg hover:bg-green-800 transition shadow-lg"
-                        style={{ fontFamily: "Plus Jakarta Sans" }}
-                      >
-                        {item.button}
-                      </button>
-                    </a>
+                    <div className="flex gap-2">
+                      <Link {...(item.href ? { href: item.href } : { href: "#" })}>
+                        <button
+                          className="mt-6 bg-green-700 text-white text-xl font-semibold px-6 py-3 rounded-lg hover:bg-green-800 transition shadow-lg"
+                          style={{ fontFamily: "Plus Jakarta Sans" }}
+                        >
+                          {item.button}
+                        </button>
+                      </Link>
+                      {item.button1 && (
+                        <a
+                          href="/soupX.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <button
+                            className="mt-6 bg-green-700 text-white text-xl font-semibold px-6 py-3 rounded-lg hover:bg-green-800 transition shadow-lg"
+                            style={{ fontFamily: "Plus Jakarta Sans" }}
+                          >
+                            {item.button1}
+                          </button>
+                        </a>
+                      )}
+                    </div>
+
                   </motion.div>
 
                   {/* IMAGE AREA */}

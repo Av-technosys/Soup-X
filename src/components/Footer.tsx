@@ -61,6 +61,9 @@ export default function Footer() {
               <li>
                 <a href="/contact">Contact Us</a>
               </li>
+              <li>
+                <a href="https://franchiseready.in/soupx">Apply for Franchise</a>
+              </li>
             </ul>
           </div>
 
@@ -81,6 +84,9 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/terms">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="/soupX.pdf" target="_blank" rel="noopener noreferrer">Brochure</a>
               </li>
             </ul>
           </div>
