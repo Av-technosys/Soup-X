@@ -137,7 +137,7 @@ export default function About() {
         </div>
       </div>
       {/* ---------------- OUR VISION SECTION ---------------- */}
-      <div className="mt-32 px-6 md:px-20 flex flex-col md:flex-row-reverse items-center gap-12">
+      {/* <div className="mt-32 px-6 md:px-20 flex flex-col md:flex-row-reverse items-center gap-12">
         <div className="w-full md:w-1/2">
           <Image
             src="/vision2.jpg"
@@ -177,6 +177,53 @@ export default function About() {
             ))}
           </ul>
         </div>
+      </div> */}
+      <div className="mt-32 px-6 md:px-20 flex flex-col-reverse md:flex-row items-center gap-12">
+
+        {/* TEXT SECTION */}
+        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
+          <h2
+            className="text-4xl md:text-5xl font-bold text-gray-900"
+            style={{ fontFamily: "Poppins" }}
+          >
+            Our Vision
+          </h2>
+
+          <p className="text-gray-600 text-lg md:text-xl leading-relaxed">
+            A nation where every cafeteria, campus, hospital & office serves food that fuels life—
+            not drains it.
+          </p>
+
+          <ul className="space-y-3">
+            {[
+              "No shortcuts, no preservatives",
+              "Every bowl meets our gold standard",
+              "Ready when you need it",
+              "Wellness for everyone",
+              "Compostable packaging, minimal waste",
+            ].map((item, i) => (
+              <li
+                key={i}
+                className="flex items-center gap-3 text-lg md:text-xl text-gray-800"
+              >
+                <CheckCircle className="text-green-700 w-6 h-6 flex-shrink-0" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* IMAGE SECTION */}
+        <div className="w-full md:w-1/2 flex justify-center">
+          <Image
+            src="/vision2.jpg"
+            width={450}
+            height={550}
+            alt="Our Vision"
+            className="rounded-xl shadow-lg object-cover max-h-[500px]"
+          />
+        </div>
+
       </div>
 
 
