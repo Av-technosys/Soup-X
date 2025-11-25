@@ -6,37 +6,40 @@ export default function Categories() {
   const items = [
     {
       img: "/soup.png",
-      title: "Organic Soup",
-      dishes: "12 Dishes in the Menu",
+      title: "Signature Soups",
     },
     {
       img: "/sandwich.png",
-      title: "Organiic Sandwiche",
-      dishes: "04 Dishes in the Menu",
+      title: "Wrap & Sandwiches",
     },
     {
       img: "/grill.png",
-      title: "Organic Grill Food",
-      dishes: "12 Dishes in the Menu",
+      title: "Khichdi & Bowls",
     },
     {
       img: "/salad.png",
-      title: "Freshly Prepared Salad",
-      dishes: "12 Dishes in the Menu",
+      title: "Powerful Salads",
     },
   ];
 
   return (
     <section id="menu" className="w-full mt-6 px-6 md:px-24">
       {/* TITLE + LINE */}
-      <div className="max-w-[1400px] mx-auto px-4 lg:px-8 relative">
+      <div className="max-w-[1400px] mx-auto px-4 lg:px-2 relative">
         <div className="text-center">
           <h2
-            className=" text-3xl md:text-6xl font-extrabold "
+            className=" text-3xl md:text-6xl font-semibold "
             style={{ fontFamily: "poppins" }}
           >
             {" "}
-            Choose a Category
+            Comfort Food That Loves You Back
+          </h2>
+          <h2
+            className=" mt-4 text-xl md:text-2xl font-normal "
+            style={{ fontFamily: "poppins" }}
+          >
+            {" "}
+            Crafted by chefs. Approved by nutritionists. Made for daily nourishment.
           </h2>
           <div className=" mt-2 h-2 w-64 bg-yellow-400 mx-auto rounded-full"></div>
         </div>
@@ -62,12 +65,12 @@ export default function Categories() {
                 {item.title}
               </h3>
               {/* Text */}
-              <p
+              {/* <p
                 className="text-green-900 font-bold text-xl "
                 style={{ fontFamily: "Plus Jakarta Sans" }}
               >
                 {item.dishes}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>

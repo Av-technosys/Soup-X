@@ -13,17 +13,21 @@ export default function About() {
       {/* ---------------- HERO SECTION ---------------- */}
       <div className="w-full flex flex-col md:flex-row items-center px-6 md:px-20">
         {/* LEFT TEXT */}
-        <div className="w-full md:w-1/2 space-y-6">
+        <div className="w-full md:w-1/2 space-y-1">
           <h1
             className="text-5xl md:text-7xl font-bold leading-tight text-gray-900"
             style={{ fontFamily: "Poppins" }}
           >
-            About <span className="text-green-700">SoupX</span>
+            About SoupX
           </h1>
-          <p className="text-gray-600 text-xl max-w-lg">
-            SoupX began with a personal experience inside a hospital.
-            When our founder Uttam Kumar spent several days in Apollo Hospital during his mother’s treatment, he discovered that hospitals, despite being places of healing, still serve fried, oily, unhealthy meals. <br />
-            Patients could not find clean food.<br />
+          <h1 className="text-5xl font-semibold text-green-700">Our Origin Story
+          </h1>
+          <p className="text-gray-600 text-xl mt-4 max-w-lg">
+            SoupX was born inside a hospital room.
+            During days at Apollo Hospital for his mother’s treatment, our founder saw a harsh truth—
+            India’s healing spaces still serve unhealthy food.
+            Patients struggled. Doctors depended on snacks. Attendants ate junk for days.
+
 
 
 
@@ -33,7 +37,7 @@ export default function About() {
         {/* RIGHT IMAGE */}
         <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
           <Image
-            src="/about.png"
+            src="/soupbowl.jpg"
             width={500}
             height={500}
             alt="About SoupX"
@@ -92,7 +96,7 @@ export default function About() {
       <div className="mt-32 px-6 md:px-20 flex flex-col md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2">
           <Image
-            src="/mission.png"
+            src="/mission.jpg"
             width={550}
             height={500}
             alt="Our Mission"
@@ -132,9 +136,125 @@ export default function About() {
           </ul>
         </div>
       </div>
+      {/* ---------------- OUR VISION SECTION ---------------- */}
+      <div className="mt-32 px-6 md:px-20 flex flex-col md:flex-row-reverse items-center gap-12">
+        <div className="w-full md:w-1/2">
+          <Image
+            src="/vision2.jpg"
+            width={370}
+            height={500}
+            alt="Our Vision"
+            className="rounded-xl shadow-md"
+          />
+        </div>
+
+        <div className="w-full md:w-1/2 space-y-6">
+          <h2
+            className="text-4xl md:text-5xl font-bold text-gray-900"
+            style={{ fontFamily: "Poppins" }}
+          >
+            Our Vision
+          </h2>
+          <p className="text-gray-600 text-xl">
+            A nation where every cafeteria, campus, hospital & office serves food that fuels life—not drains it.
+          </p>
+
+          <ul className="space-y-3">
+            {[
+              "No shortcuts, no preservatives",
+              "Every bowl meets our gold standard",
+              "Ready when you need it",
+              "Wellness for everyone",
+              "Compostable packaging, minimal waste",
+            ].map((item, i) => (
+              <li
+                key={i}
+                className="flex items-center gap-3 text-xl text-gray-800"
+              >
+                <CheckCircle className="text-green-700" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+
+
+      {/* What we stand for */}
+      <section
+        id="product"
+        className="relative w-full mt-10 md:py-10  overflow-hidden"
+      >
+        <div className="text-center mb-4">
+          <h2
+            className="text-4xl md:text-6xl font-extrabold "
+            style={{ fontFamily: "Poppins" }}
+          >
+            What we Stand For
+          </h2>
+          <div className=" mt-2 h-2 w-40 md:w-64 bg-yellow-400 mx-auto rounded-full"></div>
+        </div>
+        {/* TOP YELLOW LINE */}
+        <div className="w-full bg-[#032111] ">
+          <div className="max-w-[1400px] mx-auto px-4 lg:px-8 relative">
+
+
+            {/* MAIN CONTENT GRID */}
+            <div className=" py-8 grid grid-cols-1 md:grid-cols-2    items-center bg-[#032111]">
+
+              <div className=" md:flex ">
+                {/* Tetra Pack */}
+                <Image
+                  src="/vision3.png"
+                  alt="SoupX Tetra Pack"
+                  width={450}
+                  height={600}
+                  className=" md:absolute -top-44 "
+                />
+
+
+              </div>
+
+              {/* RIGHT CONTENT */}
+              <div
+                className="text-white  lg:px-10"
+                style={{ fontFamily: "Prompt" }}
+              >
+                <h2
+                  className="text-4xl md:text-4xl font-medium mb-8"
+                  style={{ fontFamily: "Prompt" }}
+                >
+                  The Values That Shape Every Bowl We Serve
+
+                </h2>
+                <div className="grid grid-cols-1 gap-2">
+                  <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
+                    <h1>Health Before Everything
+                    </h1></div>
+                  <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
+                    <h1>Consistency You Can Trust
+                    </h1></div>
+                  <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
+                    <h1>Fast, Convenient, Everyday Food
+                    </h1></div>
+                  <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
+                    <h1>Wellness Made Affordable
+                    </h1></div>
+                  <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
+                    <h1>Sustainability, Built In
+                    </h1></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
 
       {/* ---------------- FOUNDERS SECTION ---------------- */}
-      <div className="mt-32 px-6 md:px-20 text-center">
+      <div className=" px-6 md:px-20 text-center">
         <h2
           className="text-4xl md:text-5xl font-bold"
           style={{ fontFamily: "Poppins" }}
@@ -156,6 +276,10 @@ export default function About() {
             <p className="text-gray-600">Founder</p>
           </div>
 
+
+
+
+
           {/* Founder 2 */}
           <div className="flex flex-col items-center">
             <Image
@@ -170,6 +294,9 @@ export default function About() {
           </div>
         </div>
       </div>
+
+
+
 
       {/* ---------------- CTA SECTION ---------------- */}
       <div className="mt-32 mb-32 px-6 md:px-20 text-center">

@@ -96,7 +96,7 @@ export default function BusinessVerticals() {
             className=" text-4xl md:text-5xl font-bold text-gray-900"
             style={{ fontFamily: "Poppins" }}
           >
-            Business Verticals
+            The SoupX Ecosystem
           </motion.h2>
 
           <motion.p
