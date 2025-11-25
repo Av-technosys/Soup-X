@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="w-full min-h-screen bg-white pt-28"
+      className="w-full min-h-screen bg-white pt-4 lg:pt-28"
       style={{ fontFamily: "Plus Jakarta Sans" }}
     >
       {/* ---------------- HERO SECTION ---------------- */}
@@ -47,7 +47,7 @@ export default function About() {
       </div>
 
       {/* ---------------- OUR STORY SECTION ---------------- */}
-      <div className="mt-32 px-6 md:px-20 text-center">
+      <div className="lg:mt-32 mt-10 px-6 md:px-20 text-center">
         <h2
           className="text-4xl md:text-5xl font-bold text-gray-900"
           style={{ fontFamily: "Poppins" }}
@@ -93,7 +93,7 @@ export default function About() {
       </div>
 
       {/* ---------------- OUR MISSION SECTION ---------------- */}
-      <div className="mt-32 px-6 md:px-20 flex flex-col md:flex-row items-center gap-12">
+      <div className=" mt-10 lg:mt-32 px-6 md:px-20 flex flex-col md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2">
           <Image
             src="/mission.jpg"
@@ -106,12 +106,12 @@ export default function About() {
 
         <div className="w-full md:w-1/2 space-y-6">
           <h2
-            className="text-4xl md:text-5xl font-bold text-gray-900"
+            className="text-4xl text-center md:text-5xl font-bold text-gray-900"
             style={{ fontFamily: "Poppins" }}
           >
             Our Mission
           </h2>
-          <p className="text-gray-600 text-xl">
+          <p className="text-gray-600 text-xl text-center">
             We aim to redefine healthy eating in India by offering delicious,
             chef-prepared soups and meals made with high-quality, locally
             sourced ingredients.
@@ -178,7 +178,7 @@ export default function About() {
           </ul>
         </div>
       </div> */}
-      <div className="mt-32 px-6 md:px-20 flex flex-col-reverse md:flex-row items-center gap-12">
+      <div className="mt-10 lg:mt-32 px-6 md:px-20 flex flex-col-reverse md:flex-row items-center gap-12">
 
         {/* TEXT SECTION */}
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
@@ -257,7 +257,7 @@ export default function About() {
                   alt="SoupX Tetra Pack"
                   width={450}
                   height={600}
-                  className=" md:absolute -top-44 "
+                  className=" md:absolute -mt-40 lg:mt-0   lg:-top-44 "
                 />
 
 
@@ -265,7 +265,7 @@ export default function About() {
 
               {/* RIGHT CONTENT */}
               <div
-                className="text-white  lg:px-10"
+                className="text-white -mt-36 lg:mt-0 lg:px-10"
                 style={{ fontFamily: "Prompt" }}
               >
                 <h2
@@ -301,7 +301,7 @@ export default function About() {
       </section>
 
       {/* ---------------- FOUNDERS SECTION ---------------- */}
-      <div className=" px-6 md:px-20 text-center">
+      <div className=" mt-10 px-6 md:px-20 text-center">
         <h2
           className="text-4xl md:text-5xl font-bold"
           style={{ fontFamily: "Poppins" }}
@@ -309,7 +309,7 @@ export default function About() {
           Meet Our Founders
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 lg:mt-16 mt-4">
           {/* Founder 1 */}
           <div className="flex flex-col items-center">
             <Image
@@ -346,7 +346,7 @@ export default function About() {
 
 
       {/* ---------------- CTA SECTION ---------------- */}
-      <div className="mt-32 mb-32 px-6 md:px-20 text-center">
+      <div className="lg:my-32 my-4 px-6 md:px-20 text-center">
         <div className="bg-green-700 text-white p-12 rounded-3xl shadow-xl">
           <h2
             className="text-4xl md:text-5xl font-bold"
