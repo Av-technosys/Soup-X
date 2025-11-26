@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Autoplay } from "swiper/modules";
 
 const categories = [
     {
@@ -37,6 +38,11 @@ export default function FoodCarousel() {
             <h1 className="text-5xl font-semibold text-center mb-10">Media Coverage</h1>
             <Swiper
                 navigation={true}
+                modules={[Autoplay]}
+                autoplay={{
+                    delay: 0, // 2 seconds
+                    disableOnInteraction: false,
+                }}
                 loop={true}
                 speed={1000}
                 spaceBetween={30}
