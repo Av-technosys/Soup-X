@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { CheckCircle, Users, Factory, Leaf } from "lucide-react";
+import Leaders from "@/src/components/Leaders";
 
 export default function About() {
   return (
@@ -342,7 +343,66 @@ export default function About() {
         </div>
       </div>
 
-
+      {/* ---------------- OUR LEADERS -----------------*/}
+      {/* <div className="w-full justify-around mt-10 flex">
+        <div>
+          <div><Image
+            src="/vikas.png"
+            width={250}
+            height={250}
+            alt="Founder 1"
+            className=" shadow-lg"
+          /></div>
+          <div className=" bg-green-500 text-white border border-green-500 h-40 
+           flex flex-col pt-6 px-4">
+            <h1 className="text-2xl font-bold">VIKAS CHAWLA</h1>
+            <p className="text-md  font-normal">Managing Director and <br />Chief Executive Officer</p>
+          </div>
+        </div>
+        <div>
+          <div><Image
+            src="/joel.png"
+            width={250}
+            height={250}
+            alt="Founder 1"
+            className=" shadow-lg"
+          /></div>
+          <div className=" bg-green-500 text-white border border-green-500 h-40 
+           flex flex-col pt-6 px-4">
+            <h1 className="text-2xl font-bold ">JOEL ANTHONY</h1>
+            <p className="text-md  font-normal">Chief Executive Officer, <br /> Support Services</p>
+          </div>
+        </div>
+        <div>
+          <div><Image
+            src="/krish.png"
+            width={250}
+            height={250}
+            alt="Founder 1"
+            className=" shadow-lg"
+          /></div>
+          <div className=" bg-green-500 text-white border border-green-500 h-40 
+           flex flex-col pt-6 px-4">
+            <h1 className="text-2xl font-bold">KRISHNA WAGE</h1>
+            <p className="text-md  font-normal">Co-Founder & CEO <br /> SmartQ, A Compass <br /> Group Company</p>
+          </div>
+        </div>
+        <div>
+          <div><Image
+            src="/deb.png"
+            width={250}
+            height={250}
+            alt="Founder 1"
+            className=" shadow-lg"
+          /></div>
+          <div className=" bg-green-500 text-white border border-green-500 h-40 
+           flex flex-col pt-6 px-4">
+            <h1 className="text-2xl font-bold">DEBASHISH YADAV</h1>
+            <p className="text-md  font-normal">Chief Executive Officer,  <br /> ICS Foods – A <br /> Compass Group <br /> Company</p>
+          </div>
+        </div>
+      </div> */}
+      {/* <Leaders /> */}
 
 
       {/* ---------------- CTA SECTION ---------------- */}

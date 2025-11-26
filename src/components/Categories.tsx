@@ -5,19 +5,19 @@ import Image from "next/image";
 export default function Categories() {
   const items = [
     {
-      img: "/soup.png",
+      img: "/bowlz.jpg",
       title: "Signature Soups",
     },
     {
-      img: "/sandwich.png",
+      img: "/wrapz.jpg",
       title: "Wrap & Sandwiches",
     },
     {
-      img: "/grill.png",
+      img: "/khichdiz.jpg",
       title: "Khichdi & Bowls",
     },
     {
-      img: "/salad.png",
+      img: "/saladz.jpg",
       title: "Powerful Salads",
     },
   ];
@@ -74,6 +74,9 @@ export default function Categories() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="flex justify-center mt-6">
+        <a href="/menu.pdf " target="_blank" rel="noopener noreferrer"><button className="text-xl border rounded-lg px-6 py-2 bg-green-600 text-white">Explore Our Menu</button></a>
       </div>
     </section>
   );

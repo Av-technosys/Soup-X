@@ -9,7 +9,7 @@ export default function Hero() {
       style={{ fontFamily: "Plus Jakarta Sans" }}
     >
       {/* LEFT SECTION */}
-      <div className="w-full lg:absolute justify-center items-center mt-10 lg:mt-36 md:mt-52 mx-4 md:mx-0 md:ml-20">
+      <div className=" lg:absolute justify-center items-center mt-10 lg:mt-36 md:mt-52 mx-4 md:mx-0 md:ml-20">
         <h3 className="text-green-700 font-bold text-3xl">Shark Tank India Trusted.</h3>
 
         <h1 className="  text-4xl md:text-5xl font-bold leading-tight mt-3">
