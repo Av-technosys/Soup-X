@@ -96,8 +96,8 @@ Eat well. Feel better. Live healthier.`,
           <SwiperSlide key={i}>
             <div className="flex flex-col md:flex-row w-full ">
               {/* LEFT */}
-              <div className=" lg:absolute  flex flex-col justify-center mt-10 md:mt-0 px-8 md:pl-20 max-w-xl">
-                <h3 className="text-green-700 font-bold mt-40 text-3xl">{s.title1}</h3>
+              <div className=" lg:absolute  flex flex-col justify-center md:mt-0 px-8 md:pl-20 max-w-xl">
+                <h3 className="text-green-700 font-bold mt-4 lg:mt-40 text-3xl">{s.title1}</h3>
 
                 <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-3">
                   {s.title2}

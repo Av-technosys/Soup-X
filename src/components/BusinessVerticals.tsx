@@ -110,7 +110,7 @@ export default function BusinessVerticals() {
         "Millet bowls",
       ],
       button: "Start Pre-Order",
-      img: "/FCMG.png",
+      img: "/fcmg.png",
       bg: "/parallax/bg5.jpg",
       href: "/contact",
     },

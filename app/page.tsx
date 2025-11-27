@@ -1,6 +1,5 @@
 import BusinessVerticals from "@/src/components/BusinessVerticals";
 import Categories from "@/src/components/Categories";
-import Footer from "@/src/components/Footer";
 import Hero from "@/src/components/Hero";
 import Media from "@/src/components/media";
 import TestimonialSection from "@/src/components/testimonials";
@@ -15,7 +14,6 @@ export default function Home() {
       <TetraPack />
       <Media />
       <TestimonialSection />
-      {/* <Footer /> */}
     </div>
   );
 }

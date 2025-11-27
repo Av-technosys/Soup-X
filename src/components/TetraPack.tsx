@@ -118,8 +118,8 @@ export default function TetraPack() {
         </div>
       </div>
       <div className="mx-auto text-center mt-10 ">
-        <h1 className="text-6xl font-semibold">Build India’s Wellness Revolution</h1>
-        <p className="text-3xl mt-4 ">Low investment. High demand. Fast returns. <br />
+        <h1 className="text-2xl lg:text-6xl font-semibold">Build India’s Wellness Revolution</h1>
+        <p className=" text-lg lg:text-3xl mt-4 ">Low investment. High demand. Fast returns. <br />
           Perfect for hospitals & high-footfall hubs.</p>
 
       </div>

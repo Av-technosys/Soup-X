@@ -402,7 +402,7 @@ export default function About() {
           </div>
         </div>
       </div> */}
-      {/* <Leaders /> */}
+      <Leaders />
 
 
       {/* ---------------- CTA SECTION ---------------- */}
@@ -415,7 +415,7 @@ export default function About() {
             Join the SoupX Journey
           </h2>
           <p className="text-lg md:text-xl mt-3 text-gray-200">
-            Whether you're a customer, partner, or franchise — we’d love to
+            Whether you &apos;re a customer, partner, or franchise — we’d love to
             connect.
           </p>
 

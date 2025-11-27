@@ -37,7 +37,7 @@ export default function Navbar() {
         </Link>
 
         {/* DESKTOP MENU */}
-        <ul className="hidden md:flex items-center gap-8 text-black font-semibold text-xl ml-10">
+        <ul className="hidden bg-white md:flex items-center gap-8 text-black font-semibold text-xl ml-10">
           {navItems.map((item, i) => (
             <li key={i}>
               <Link
@@ -51,7 +51,7 @@ export default function Navbar() {
         </ul>
 
         {/* MOBILE MENU BUTTON */}
-        <button className="md:hidden text-black" onClick={() => setOpen(!open)}>
+        <button className="md:hidden bg-white text-black" onClick={() => setOpen(!open)}>
           {open ? <X size={36} /> : <Menu size={36} />}
         </button>
       </div>

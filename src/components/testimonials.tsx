@@ -201,6 +201,53 @@ export default function TestimonialSection() {
           ))}
         </Swiper>
       </div>
+      <div className="w-full pt-10 px-6 md:px-12 lg:px-24 text-black">
+        <div className="max-w-6xl mx-auto text-center">
+
+          {/* HEADING */}
+          <h1 className="inline-block text-2xl md:text-4xl lg:text-5xl font-extrabold px-6 py-3  rounded-xl shadow-lg">
+            Build the Future of Healthy Food in India
+          </h1>
+
+          {/* SUBTEXT */}
+          <p className="text-lg md:text-xl mt-8 font-light">
+            We hire passionate people in:
+          </p>
+
+          {/* GRID BOXES */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+            {[
+              "Operations",
+              "Nutrition",
+              "Central Kitchen",
+              "Marketing",
+              "Sales",
+              "Technology",
+            ].map((item, index) => (
+              <div
+                key={index}
+                className=" hover:border-green-500 transition-all duration-300 
+          rounded-xl p-6 shadow-md hover:shadow-green-600/40 flex items-center justify-center text-xl font-semibold"
+              >
+                {item}
+              </div>
+            ))}
+          </div>
+
+          {/* BUTTON */}
+          <div className="mt-12 flex justify-center">
+            <button
+              className="bg-green-600 hover:bg-green-700 transition-all duration-300 
+        text-white px-10 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-green-600/40"
+            >
+              Join Our Team
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+
     </section>
   );
 }

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="w-full  bg-[#022D1B] text-white pt-24 pb-10">
-      <div className="max-w-[1400px] mx-auto px-4 lg:px-8 relative">
+    <footer className="w-full  bg-[#022D1B] text-white pt-24 ">
+      <div className="max-w-[1400px] mx-auto relative">
         {/* TOP CTA SECTION */}
         <div className="text-center px-4">
           <h2
@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="w-full border-t border-gray-600 mt-20"></div>
 
         {/* FOOTER GRID */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-16 px-4 md:px-20">
+        <div className=" text-black py-10 bg-white grid grid-cols-1 md:grid-cols-4 gap-10 px-4 md:px-20">
           {/* Column 1 */}
           <div>
             <h3
@@ -43,7 +43,7 @@ export default function Footer() {
               Company
             </h3>
             <ul
-              className="space-y-3 font-normal text-xl text-gray-300"
+              className="space-y-3 font-normal text-xl "
               style={{ fontFamily: "Poppins" }}
             >
               <li>
@@ -76,7 +76,7 @@ export default function Footer() {
               Terms & Policies
             </h3>
             <ul
-              className="space-y-3 font-normal text-xl text-gray-300"
+              className="space-y-3 font-normal text-xl "
               style={{ fontFamily: "Poppins" }}
             >
               <li>
@@ -100,7 +100,7 @@ export default function Footer() {
               Follow Us
             </h3>
             <ul
-              className="space-y-3 font-normal text-xl text-gray-300"
+              className="space-y-3 font-normal text-xl "
               style={{ fontFamily: "Poppins" }}
             >
               <li>
@@ -129,7 +129,7 @@ export default function Footer() {
               Contact Us
             </h3>
             <ul
-              className="space-y-3 font-normal text-xl text-gray-300"
+              className="space-y-3 font-normal text-xl "
               style={{ fontFamily: "Poppins" }}
             >
               <li>
