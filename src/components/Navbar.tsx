@@ -42,6 +42,8 @@ export default function Navbar() {
             <li key={i}>
               <Link
                 href={item.href}
+                target={item.target || "_self"}
+                rel={item.rel || ""}
                 className="cursor-pointer hover:text-green-600 transition"
               >
                 {item.label}
@@ -66,6 +68,8 @@ export default function Navbar() {
             <li key={i}>
               <Link
                 href={item.href}
+                target={item.target || "_self"}
+                rel={item.rel || ""}
                 className="cursor-pointer hover:text-green-600"
                 onClick={() => setOpen(false)} // auto-close menu on click
               >

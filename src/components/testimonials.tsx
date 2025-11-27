@@ -236,12 +236,12 @@ export default function TestimonialSection() {
 
           {/* BUTTON */}
           <div className="mt-12 flex justify-center">
-            <button
+            <a href="/contact"> <button
               className="bg-green-600 hover:bg-green-700 transition-all duration-300 
         text-white px-10 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-green-600/40"
             >
               Join Our Team
-            </button>
+            </button></a>
           </div>
 
         </div>

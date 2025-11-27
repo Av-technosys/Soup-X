@@ -52,7 +52,7 @@ Krishna’s commitment to exceeding expectations and creating value through dive
 
     return (
         <div className="w-full  mt-10 space-y-6">
-
+            <p className="text-2xl lg:text-6xl font-bold text-center pb-6  ">Our Team</p>
             {/* 4 Cards Row */}
             <div className="flex flex-wrap justify-around gap-2">
                 {leaders.map((leader) => (
