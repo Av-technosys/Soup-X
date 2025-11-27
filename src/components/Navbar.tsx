@@ -58,7 +58,7 @@ export default function Navbar() {
 
       {/* MOBILE MENU DROPDOWN */}
       <div
-        className={`md:hidden bg-white text-black font-semibold text-xl px-6 py-4 absolute w-full right-0 transition-all duration-300 shadow-lg ${open ? "top-28 opacity-100" : "top-[-300px] opacity-0"
+        className={`md:hidden  bg-white text-black font-semibold text-xl px-6 py-4 absolute z-10 w-full right-0 transition-all duration-300 shadow-lg ${open ? "top-28 opacity-100" : "top-[-300px] opacity-0"
           }`}
       >
         <ul className="flex flex-col gap-6">
