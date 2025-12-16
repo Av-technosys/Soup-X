@@ -307,46 +307,7 @@ export default function About() {
       {/* ---------------- FOUNDERS SECTION ---------------- */}
 
 
-      <div className=" mt-10 px-6 md:px-20 text-center">
-        <h2
-          className="text-4xl md:text-5xl font-bold"
-          style={{ fontFamily: "Poppins" }}
-        >
-          Meet Our Founders
-        </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 lg:mt-16 mt-4">
-          {/* Founder 1 */}
-          <div className="flex flex-col items-center">
-            <Image
-              src="/user.png"
-              width={250}
-              height={250}
-              alt="Founder 1"
-              className="rounded-full shadow-lg"
-            />
-            <h3 className="text-2xl font-semibold mt-6">Priyank Jain</h3>
-            <p className="text-gray-600">Founder</p>
-          </div>
-
-
-
-
-
-          {/* Founder 2 */}
-          <div className="flex flex-col items-center">
-            <Image
-              src="/user.png"
-              width={250}
-              height={250}
-              alt="Founder 2"
-              className="rounded-full shadow-lg"
-            />
-            <h3 className="text-2xl font-semibold mt-6">Uttam Kumar</h3>
-            <p className="text-gray-600">Co-Founder</p>
-          </div>
-        </div>
-      </div>
 
       {/* ---------------- OUR LEADERS -----------------*/}
       {/* <div className="w-full justify-around mt-10 flex">

@@ -1,51 +1,8 @@
-// "use client";
-// import { Search } from "lucide-react";
-// import Image from "next/image";
-
-// export default function Hero() {
-//   return (
-//     <section
-//       className="  flex w-full "
-//       style={{ fontFamily: "Plus Jakarta Sans" }}
-//     >
-//       {/* LEFT SECTION */}
-//       <div className=" lg:absolute justify-center items-center mt-10 lg:mt-36 md:mt-52 mx-4 md:mx-0 md:ml-20">
-//         <h3 className="text-green-700 font-bold text-3xl">Shark Tank India Trusted.</h3>
-
-//         <h1 className="  text-4xl md:text-5xl font-bold leading-tight mt-3">
-//           Healthy Food, <br /> Finally Accessible
-//         </h1>
-//         <p className="text-gray-600 font-normal md:text-left text-left text-xl mt-4 max-w-md">
-//           India’s 1st wellness soup-based food ecosystem trusted by hospitals, corporates & modern India..
-//           <br />
-//           Clean. Nutritious. Comforting. And ready in minutes.
-
-//         </p>
-
-
-//       </div>
-
-//       {/* RIGHT SECTION */}
-//       <div className="w-full hidden md:flex justify-center items-center">
-//         <Image
-//           src="/hero.jpg"
-//           alt="Soup Bowl"
-//           width={6000}
-//           height={100}
-//           className="object-contain w-full "
-//         />
-//       </div>
-//     </section>
-//   );
-// }
-
-
-
 
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import Image from "next/image";
 
@@ -79,18 +36,19 @@ Eat well. Feel better. Live healthier.`,
   return (
     <section className="w-full" style={{ fontFamily: "Plus Jakarta Sans" }}>
       <Swiper
-        modules={[Autoplay]}
+        modules={[Autoplay, Navigation]}
         autoplay={{
-          delay: 2000, // 2 seconds
+          delay: 3000, // 2 seconds
           disableOnInteraction: false,
         }}
         navigation={true}
         speed={1000}
-
+        allowSlideNext={true}
+        allowSlidePrev={true}
         slidesPerView={1}
         spaceBetween={0}
         loop={true}
-        className="w-full"
+        className="w-full hero-swiper"
       >
         {slides.map((s, i) => (
           <SwiperSlide key={i}>
