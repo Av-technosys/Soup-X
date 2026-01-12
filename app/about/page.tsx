@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { CheckCircle, Users, Factory, Leaf } from "lucide-react";
-import Leaders from "@/src/components/Leaders";
 import TeamSection from "@/src/components/meetfounder";
 
 export default function About() {
