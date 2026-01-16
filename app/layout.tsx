@@ -3,6 +3,7 @@ import { Poppins, Plus_Jakarta_Sans } from "next/font/google";
 import Navbar from "@/src/components/Navbar";
 import { ReactNode } from "react";
 import Footer from "@/src/components/Footer";
+import Script from "next/script"; // 👈 IMPORTANT
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -10,7 +11,6 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-// Load Plus Jakarta Sans
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
@@ -28,6 +28,22 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-6P83T9VR26"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6P83T9VR26');
+          `}
+        </Script>
+      </head>
+
       <body className={`${poppins.variable} ${jakarta.variable}`}>
         <Navbar />
         {children}
