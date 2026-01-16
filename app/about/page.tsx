@@ -2,6 +2,9 @@ export const metadata = {
   title: "About SoupX – Healthy Soups & Wellness Food Brand in India",
   description:
     "SoupX is a healthy soup & wellness food brand in India offering nutritious meals, soups & clean-label food solutions for hospitals, corporates & cafes. Call us.",
+  alternates: {
+    canonical: "https://www.soupx.health/about",
+  },
 };
 
 import Image from "next/image";
