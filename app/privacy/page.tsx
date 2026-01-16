@@ -2,6 +2,9 @@ export const metadata = {
   title: "SoupX Privacy Policy | Data Protection & User Information",
   description:
     "Read SoupX’s privacy policy to understand how we protect your data while offering healthy nutritious soups, secure services, transparency, and user trust online",
+  alternates: {
+    canonical: "https://www.soupx.health/privacy/",
+  },
 };
 
 

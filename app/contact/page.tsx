@@ -2,6 +2,9 @@ export const metadata = {
   title: "Contact SoupX | Healthy Food Soups & Wellness Solutions",
   description:
     "Get in touch with SoupX for partnerships, B2B supply, franchise, media & investor inquiries. Contact via email or phone for healthy food & wellness meals.",
+  alternates: {
+    canonical: "https://www.soupx.health/contact/",
+  },
 };
 
 import ContactForm from "./ContactForm";
