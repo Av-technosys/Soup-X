@@ -7,12 +7,12 @@ export default function Footer() {
 
         {/* TOP CTA SECTION */}
         <div className="text-center px-4">
-          <h2
+          <p
             className="text-4xl md:text-8xl font-semibold leading-tight"
             style={{ fontFamily: "Plus Jakarta Sans" }}
           >
             Subscribe To Our <br /> Newsletter
-          </h2>
+          </p>
 
           <p
             className="text-gray-300 mt-4 font-normal text-2xl"
@@ -39,9 +39,9 @@ export default function Footer() {
 
           {/* Column 1 */}
           <div>
-            <h3 className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
+            <p className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
               Company
-            </h3>
+            </p>
             <ul className="space-y-3 font-normal text-xl" style={{ fontFamily: "Poppins" }}>
               <li><Link href="/">Home</Link></li>
               <li><Link href="/about">About Us</Link></li>
@@ -58,9 +58,9 @@ export default function Footer() {
 
           {/* Column 2 */}
           <div>
-            <h3 className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
+            <p className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
               Terms & Policies
-            </h3>
+            </p>
             <ul className="space-y-3 font-normal text-xl" style={{ fontFamily: "Poppins" }}>
               <li><Link href="/privacy">Privacy Policy</Link></li>
               <li><Link href="/terms">Terms & Conditions</Link></li>
@@ -74,9 +74,9 @@ export default function Footer() {
 
           {/* Column 3 */}
           <div>
-            <h3 className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
+            <p className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
               Follow Us
-            </h3>
+            </p>
             <ul className="space-y-3 font-normal text-xl" style={{ fontFamily: "Poppins" }}>
               <li><a href="https://www.instagram.com/soupxindia/">Instagram</a></li>
               <li><a href="https://in.linkedin.com/company/soupx-sip-of-health">LinkedIn</a></li>
@@ -86,9 +86,9 @@ export default function Footer() {
 
           {/* Column 4 */}
           <div>
-            <h3 className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
+            <p className="text-2xl font-normal mb-4" style={{ fontFamily: "Poppins" }}>
               Contact Us
-            </h3>
+            </p>
             <ul className="space-y-3 font-normal text-xl" style={{ fontFamily: "Poppins" }}>
               <li>
                 MercuryRise Hospitality Pvt. Ltd. Sector 73, Noida, UP-201307.

@@ -23,6 +23,10 @@ export const metadata = {
   icons: {
     icon: "/image 114.png",
   },
+  metadataBase: new URL("https://www.soupx.health"),
+  verification: {
+    google: "8cX-856ZJnYs_zgp0fbqSVp3jQmb8K9_fKfFgs1vCS0",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

@@ -102,15 +102,15 @@ export default function TetraPack() {
               </div> */}
               <div className="grid grid-cols-1 gap-2">
                 <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                  <h1>Hospitals now serve clean food</h1></div>
+                  <h4>Hospitals now serve clean food</h4></div>
                 <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                  <h1>Corporates see healthier, happier teams</h1></div>
+                  <h4>Corporates see healthier, happier teams</h4></div>
                 <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                  <h1>Students finally get affordable, nourishing meals</h1></div>
+                  <h4>Students finally get affordable, nourishing meals</h4 ></div>
                 <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                  <h1>Zero-preservative production</h1></div>
+                  <h4>Zero-preservative production</h4></div>
                 <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                  <h1>Compostable, planet-friendly packaging</h1></div>
+                  <h4>Compostable, planet-friendly packaging</h4  ></div>
                 <div></div>
               </div>
             </div>

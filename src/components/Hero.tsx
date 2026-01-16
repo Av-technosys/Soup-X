@@ -57,9 +57,9 @@ Eat well. Feel better. Live healthier.`,
               <div className=" lg:absolute z-0   flex flex-col justify-center md:mt-0 px-8 md:pl-20 max-w-xl">
                 <h3 className="text-green-700 font-bold mt-4 lg:mt-40 text-3xl">{s.title1}</h3>
 
-                <h1 className="text-4xl md:text-5xl font-bold leading-tight mt-3">
+                <h2 className="text-4xl md:text-5xl font-bold leading-tight mt-3">
                   {s.title2}
-                </h1>
+                </h2>
 
                 <p className="text-gray-600 text-xl mt-4">
                   {s.desc}

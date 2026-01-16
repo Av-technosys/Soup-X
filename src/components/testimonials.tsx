@@ -23,14 +23,14 @@ export default function TestimonialSection() {
       <div className="max-w-screen-2xl w-full mx-auto px-4 lg:px-8 relative">
 
         {/* FLOATING IMAGES (same as your code) */}
-        <Image src="/testi1.png" alt="" width={90} height={90} className="hidden md:block absolute top-6 left-32 rounded-full" />
-        <Image src="/testi2.png" alt="" width={120} height={120} className="hidden md:block absolute top-56 left-40 rounded-full" />
-        <Image src="/testi3.png" alt="" width={60} height={80} className="hidden md:block absolute top-40 left-10 rounded-full" />
-        <Image src="/testi4.png" alt="" width={80} height={90} className="hidden md:block absolute bottom-28 left-6 rounded-full" />
-        <Image src="/testi5.png" alt="" width={100} height={90} className="hidden md:block absolute top-0 right-5 rounded-full" />
-        <Image src="/testi6.png" alt="" width={60} height={120} className="hidden md:block absolute top-20 right-40 rounded-full" />
-        <Image src="/testi7.png" alt="" width={80} height={90} className="hidden md:block absolute bottom-40 right-40 rounded-full" />
-        <Image src="/testi8.png" alt="" width={140} height={170} className="hidden md:block absolute right-0 bottom-16 rounded-full" />
+        <Image src="/testi1.png" alt="Customer testimonial appreciating SoupX made soup" width={90} height={90} className="hidden md:block absolute top-6 left-32 rounded-full" />
+        <Image src="/testi2.png" alt="Customer testimonial sharing their experience enjoying healthy soup from SoupX " width={120} height={120} className="hidden md:block absolute top-56 left-40 rounded-full" />
+        <Image src="/testi3.png" alt="Customer testimonial highlighting positive experience with SoupX soup " width={60} height={80} className="hidden md:block absolute top-40 left-10 rounded-full" />
+        <Image src="/testi4.png" alt="Customer sharing their experience with SoupX wellness soup" width={80} height={90} className="hidden md:block absolute bottom-28 left-6 rounded-full" />
+        <Image src="/testi5.png" alt="Customer sharing feedback on SoupX soup " width={100} height={90} className="hidden md:block absolute top-0 right-5 rounded-full" />
+        <Image src="/testi6.png" alt="Customer testimonial highlighting satisfaction with SoupX healthy soup meals " width={60} height={120} className="hidden md:block absolute top-20 right-40 rounded-full" />
+        <Image src="/testi7.png" alt="Customer testimonial sharing their positive experience with SoupX healthy soup " width={80} height={90} className="hidden md:block absolute bottom-40 right-40 rounded-full" />
+        <Image src="/testi8.png" alt="Customer testimonial expressing satisfaction with SoupX wholesome soups " width={140} height={170} className="hidden md:block absolute right-0 bottom-16 rounded-full" />
 
         {/* HEADING */}
         <div className="relative z-10 text-center mb-10">
@@ -75,9 +75,9 @@ export default function TestimonialSection() {
         <div className="max-w-6xl mx-auto text-center">
 
           {/* HEADING */}
-          <h1 className="inline-block text-2xl md:text-4xl lg:text-5xl font-extrabold px-6 py-3  rounded-xl shadow-lg">
+          <h2 className="inline-block text-2xl md:text-4xl lg:text-5xl font-extrabold px-6 py-3  rounded-xl shadow-lg">
             Build the Future of Healthy Food in India
-          </h1>
+          </h2>
 
           {/* SUBTEXT */}
           <p className="text-lg md:text-xl mt-8 font-light">

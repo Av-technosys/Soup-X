@@ -35,7 +35,7 @@ const categories = [
 export default function FoodCarousel() {
     return (
         <div className="w-full py-10">
-            <h1 className=" text-4xl lg:text-5xl font-semibold text-center mb-10">Media </h1>
+            <h3 className=" text-4xl lg:text-5xl font-semibold text-center mb-10">Media </h3>
             <Swiper
                 navigation={true}
                 modules={[Autoplay]}
@@ -68,10 +68,7 @@ export default function FoodCarousel() {
                                 />
                             </div>
 
-                            {/* Title */}
-                            <h3 className="mt-4 text-2xl font-semibold text-black text-center">
-                                {/* {cat.title} */}
-                            </h3>
+
                         </div>
                     </SwiperSlide>
                 ))}

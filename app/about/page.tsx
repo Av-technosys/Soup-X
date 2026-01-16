@@ -1,4 +1,8 @@
-"use client";
+export const metadata = {
+  title: "About SoupX – Healthy Soups & Wellness Food Brand in India",
+  description:
+    "SoupX is a healthy soup & wellness food brand in India offering nutritious meals, soups & clean-label food solutions for hospitals, corporates & cafes. Call us.",
+};
 
 import Image from "next/image";
 import { CheckCircle, Users, Factory, Leaf } from "lucide-react";
@@ -21,8 +25,8 @@ export default function About() {
           >
             About SoupX
           </h1>
-          <h1 className="text-5xl font-semibold text-green-700">Our Origin Story
-          </h1>
+          <p className="text-5xl font-semibold text-green-700">Our Origin Story
+          </p>
           <p className="text-gray-600 text-xl mt-4 max-w-lg">
             SoupX was born inside a hospital room.
             During days at Apollo Hospital for his mother’s treatment, our founder saw a harsh truth—
@@ -278,20 +282,20 @@ export default function About() {
                 </h2>
                 <div className="grid grid-cols-1 gap-2">
                   <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                    <h1>Health Before Everything
-                    </h1></div>
+                    <p>Health Before Everything
+                    </p></div>
                   <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                    <h1>Consistency You Can Trust
-                    </h1></div>
+                    <p>Consistency You Can Trust
+                    </p></div>
                   <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                    <h1>Fast, Convenient, Everyday Food
-                    </h1></div>
+                    <p>Fast, Convenient, Everyday Food
+                    </p ></div>
                   <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                    <h1>Wellness Made Affordable
-                    </h1></div>
+                    <p>Wellness Made Affordable
+                    </p></div>
                   <div className="flex gap-4"><CheckCircle className="text-green-600" size={22} />
-                    <h1>Sustainability, Built In
-                    </h1></div>
+                    <p>Sustainability, Built In
+                    </p ></div>
                   <div></div>
                 </div>
               </div>
