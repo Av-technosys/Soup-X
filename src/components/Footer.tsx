@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full bg-[#022D1B] text-white pt-24">
-      <div className="max-w-[1400px] mx-auto relative">
+      <div className="w-full mx-auto relative">
 
         {/* TOP CTA SECTION */}
         <div className="text-center px-4">
