@@ -378,7 +378,7 @@ export default function About() {
 
 
       {/* ---------------- CTA SECTION ---------------- */}
-      <div className="lg:mb-10 mb-0 my-4 px-6 md:px-20 text-center">
+      <div className="lg:mb-10 mb-10 my-4 px-6 md:px-20 text-center">
         <div className="bg-green-700 text-white p-12 rounded-3xl shadow-xl">
           <h2
             className="text-4xl md:text-5xl font-bold"
