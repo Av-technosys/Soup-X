@@ -77,7 +77,7 @@ export default function Categories() {
         </div>
       </div>
     <div className="flex justify-center gap-4 mt-6">
-  <a href="/menu.pdf" target="_blank" rel="noopener noreferrer">
+  <a href="/menu1.pdf" target="_blank" rel="noopener noreferrer">
     <button className="text-xl border rounded-lg px-6 py-2 bg-green-600 text-white hover:bg-green-700 transition">
       Explore Our Menu
     </button>
