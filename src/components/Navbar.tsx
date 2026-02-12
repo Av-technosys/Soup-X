@@ -11,7 +11,7 @@ export default function Navbar() {
   // NAV MENU LIST (DRY REUSABLE ARRAY)
   const navItems = [
     { label: "About Us", href: "/about" },
-    { label: "Menu", href: "/menu.pdf", target: "_blank", rel: "noopener noreferrer" },
+    { label: "Menu", href: "/menu1.pdf", target: "_blank", rel: "noopener noreferrer" },
     { label: "Solutions", href: "/#solution" },
     // { label: "Products", href: "/#product" },
     { label: "Franchise", href: "https://franchiseready.in/soupx", target: "_blank", rel: "noopener noreferrer" },
