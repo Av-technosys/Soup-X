@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Get in touch with SoupX for partnerships, B2B supply, franchise, media & investor inquiries. Contact via email or phone for healthy food & wellness meals.",
   alternates: {
-    canonical: "https://www.soupx.health/contact/",
+    canonical: "https://www.soupx.health/contact",
   },
 };
 

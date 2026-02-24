@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Read SoupX's terms and conditions governing the use of our website, food soups, orders, payments, refunds, and user responsibilities for a safe experience.",
   alternates: {
-    canonical: "https://www.soupx.health/terms/",
+    canonical: "https://www.soupx.health/terms",
   },
 };
 
