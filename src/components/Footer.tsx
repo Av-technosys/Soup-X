@@ -184,6 +184,7 @@ export default function Footer() {
                <li><a href="https://www.youtube.com/@SoupX_Health">Youtube</a></li>
               <li><a href="https://www.instagram.com/soupx_health/">Instagram</a></li>
               <li><a href="https://in.pinterest.com/soupx_health/">Pinterest</a></li>
+              <li><a href="https://www.linkedin.com/company/soupx-sip-of-health/">Linkedin</a></li>
               <li><a href="https://www.facebook.com/share/1B7oZQuRBs/?mibextid=wwXIfr">Facebook</a></li>
             </ul>
           </div>
